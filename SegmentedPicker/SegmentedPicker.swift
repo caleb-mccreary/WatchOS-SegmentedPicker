@@ -58,25 +58,24 @@ struct SegmentedPicker<SelectionValue>: View where SelectionValue: Hashable {
         enum Status: CaseIterable {
             case play
             case pause
-            case shuffle
-            case loop
+            case backward
+            case forward
         }
         
         @State var play = Status.play
         @State var pause = Status.pause
-        @State var shuffle = Status.shuffle
-        @State var loop = Status.loop
+        @State var backward = Status.backward
         
-        let selections = Status.allCases.map { status in
+        var selections = Status.allCases.map { status in
             switch(status) {
             case .play:
                 return Selection(label: "Play", systemImage: "play", value: status)
             case .pause:
                 return Selection(label: "Pause", systemImage: "pause", value: status)
-            case .shuffle:
-                return Selection(label: "Shuffle", systemImage: "shuffle", value: status)
-            case .loop:
-                return Selection(label: "Loop", systemImage: "repeat", value: status)
+            case .forward:
+                return Selection(label: "Forward", systemImage: "forward", value: Status.forward)
+            case .backward:
+                return Selection(label: "Forward", systemImage: "backward", value: Status.backward)
             }
         }
         
@@ -84,7 +83,7 @@ struct SegmentedPicker<SelectionValue>: View where SelectionValue: Hashable {
             VStack(spacing: 16) {
                 SegmentedPicker(selectionValue: $play, selections: selections.dropLast(2))
                 SegmentedPicker(selectionValue: $pause, selections: selections.dropLast(1))
-                SegmentedPicker(selectionValue: $shuffle, selections: selections)
+                SegmentedPicker(selectionValue: $backward, selections: selections)
             }
         }
     }

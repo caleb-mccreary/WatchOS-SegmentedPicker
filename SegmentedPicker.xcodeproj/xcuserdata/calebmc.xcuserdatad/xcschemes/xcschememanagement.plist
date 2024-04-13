@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SegmentedPicker Watch App.xcscheme_^#shared#^_</key>
+		<key>SegmentedPickerApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A45B15862BCA9D3700A2EB0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A45B15A12BCA9DEB00A2EB0D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

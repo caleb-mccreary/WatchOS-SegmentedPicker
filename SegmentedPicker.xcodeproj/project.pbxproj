@@ -7,22 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A45B158B2BCA9D3700A2EB0D /* SegmentedPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B158A2BCA9D3700A2EB0D /* SegmentedPickerApp.swift */; };
-		A45B158D2BCA9D3700A2EB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B158C2BCA9D3700A2EB0D /* ContentView.swift */; };
-		A45B158F2BCA9D3800A2EB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B158E2BCA9D3800A2EB0D /* Assets.xcassets */; };
-		A45B15922BCA9D3800A2EB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B15912BCA9D3800A2EB0D /* Preview Assets.xcassets */; };
+		A45B15A82BCA9DEB00A2EB0D /* SegmentedPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B15A72BCA9DEB00A2EB0D /* SegmentedPickerApp.swift */; };
+		A45B15AA2BCA9DEB00A2EB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B15A92BCA9DEB00A2EB0D /* ContentView.swift */; };
+		A45B15AC2BCA9DEC00A2EB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B15AB2BCA9DEC00A2EB0D /* Assets.xcassets */; };
+		A45B15AF2BCA9DEC00A2EB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B15AE2BCA9DEC00A2EB0D /* Preview Assets.xcassets */; };
+		A45B15B82BCA9E4C00A2EB0D /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B15982BCA9D4700A2EB0D /* SegmentedPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A45B15872BCA9D3700A2EB0D /* SegmentedPicker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SegmentedPicker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A45B158A2BCA9D3700A2EB0D /* SegmentedPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerApp.swift; sourceTree = "<group>"; };
-		A45B158C2BCA9D3700A2EB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A45B158E2BCA9D3800A2EB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A45B15912BCA9D3800A2EB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A45B15982BCA9D4700A2EB0D /* SegmentedPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		A45B15A22BCA9DEB00A2EB0D /* SegmentedPickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentedPickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45B15A72BCA9DEB00A2EB0D /* SegmentedPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedPickerApp.swift; sourceTree = "<group>"; };
+		A45B15A92BCA9DEB00A2EB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A45B15AB2BCA9DEC00A2EB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A45B15AE2BCA9DEC00A2EB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A45B15842BCA9D3700A2EB0D /* Frameworks */ = {
+		A45B159F2BCA9DEB00A2EB0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,7 +37,7 @@
 		A45B157E2BCA9D3700A2EB0D = {
 			isa = PBXGroup;
 			children = (
-				A45B15892BCA9D3700A2EB0D /* SegmentedPicker Watch App */,
+				A45B15A62BCA9DEB00A2EB0D /* SegmentedPicker */,
 				A45B15882BCA9D3700A2EB0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,26 +45,27 @@
 		A45B15882BCA9D3700A2EB0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A45B15872BCA9D3700A2EB0D /* SegmentedPicker Watch App.app */,
+				A45B15A22BCA9DEB00A2EB0D /* SegmentedPickerApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A45B15892BCA9D3700A2EB0D /* SegmentedPicker Watch App */ = {
+		A45B15A62BCA9DEB00A2EB0D /* SegmentedPicker */ = {
 			isa = PBXGroup;
 			children = (
-				A45B158A2BCA9D3700A2EB0D /* SegmentedPickerApp.swift */,
-				A45B158C2BCA9D3700A2EB0D /* ContentView.swift */,
-				A45B158E2BCA9D3800A2EB0D /* Assets.xcassets */,
-				A45B15902BCA9D3800A2EB0D /* Preview Content */,
+				A45B15982BCA9D4700A2EB0D /* SegmentedPicker.swift */,
+				A45B15A72BCA9DEB00A2EB0D /* SegmentedPickerApp.swift */,
+				A45B15A92BCA9DEB00A2EB0D /* ContentView.swift */,
+				A45B15AB2BCA9DEC00A2EB0D /* Assets.xcassets */,
+				A45B15AD2BCA9DEC00A2EB0D /* Preview Content */,
 			);
-			path = "SegmentedPicker Watch App";
+			path = SegmentedPicker;
 			sourceTree = "<group>";
 		};
-		A45B15902BCA9D3800A2EB0D /* Preview Content */ = {
+		A45B15AD2BCA9DEC00A2EB0D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A45B15912BCA9D3800A2EB0D /* Preview Assets.xcassets */,
+				A45B15AE2BCA9DEC00A2EB0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,21 +73,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A45B15862BCA9D3700A2EB0D /* SegmentedPicker Watch App */ = {
+		A45B15A12BCA9DEB00A2EB0D /* SegmentedPickerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A45B15952BCA9D3800A2EB0D /* Build configuration list for PBXNativeTarget "SegmentedPicker Watch App" */;
+			buildConfigurationList = A45B15B02BCA9DEC00A2EB0D /* Build configuration list for PBXNativeTarget "SegmentedPickerApp" */;
 			buildPhases = (
-				A45B15832BCA9D3700A2EB0D /* Sources */,
-				A45B15842BCA9D3700A2EB0D /* Frameworks */,
-				A45B15852BCA9D3700A2EB0D /* Resources */,
+				A45B159E2BCA9DEB00A2EB0D /* Sources */,
+				A45B159F2BCA9DEB00A2EB0D /* Frameworks */,
+				A45B15A02BCA9DEB00A2EB0D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SegmentedPicker Watch App";
+			name = SegmentedPickerApp;
 			productName = "SegmentedPicker Watch App";
-			productReference = A45B15872BCA9D3700A2EB0D /* SegmentedPicker Watch App.app */;
+			productReference = A45B15A22BCA9DEB00A2EB0D /* SegmentedPickerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +100,7 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					A45B15862BCA9D3700A2EB0D = {
+					A45B15A12BCA9DEB00A2EB0D = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -115,30 +118,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A45B15862BCA9D3700A2EB0D /* SegmentedPicker Watch App */,
+				A45B15A12BCA9DEB00A2EB0D /* SegmentedPickerApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A45B15852BCA9D3700A2EB0D /* Resources */ = {
+		A45B15A02BCA9DEB00A2EB0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45B15922BCA9D3800A2EB0D /* Preview Assets.xcassets in Resources */,
-				A45B158F2BCA9D3800A2EB0D /* Assets.xcassets in Resources */,
+				A45B15AF2BCA9DEC00A2EB0D /* Preview Assets.xcassets in Resources */,
+				A45B15AC2BCA9DEC00A2EB0D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A45B15832BCA9D3700A2EB0D /* Sources */ = {
+		A45B159E2BCA9DEB00A2EB0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45B158D2BCA9D3700A2EB0D /* ContentView.swift in Sources */,
-				A45B158B2BCA9D3700A2EB0D /* SegmentedPickerApp.swift in Sources */,
+				A45B15B82BCA9E4C00A2EB0D /* SegmentedPicker.swift in Sources */,
+				A45B15AA2BCA9DEB00A2EB0D /* ContentView.swift in Sources */,
+				A45B15A82BCA9DEB00A2EB0D /* SegmentedPickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,26 +263,26 @@
 			};
 			name = Release;
 		};
-		A45B15962BCA9D3800A2EB0D /* Debug */ = {
+		A45B15B12BCA9DEC00A2EB0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SegmentedPicker Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SegmentedPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = QXP7CYALWN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SegmentedPicker;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waterdog.SegmentedPicker.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -289,26 +293,26 @@
 			};
 			name = Debug;
 		};
-		A45B15972BCA9D3800A2EB0D /* Release */ = {
+		A45B15B22BCA9DEC00A2EB0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SegmentedPicker Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SegmentedPicker/Preview Content\"";
 				DEVELOPMENT_TEAM = QXP7CYALWN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = SegmentedPicker;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.waterdog.SegmentedPicker.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -332,11 +336,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A45B15952BCA9D3800A2EB0D /* Build configuration list for PBXNativeTarget "SegmentedPicker Watch App" */ = {
+		A45B15B02BCA9DEC00A2EB0D /* Build configuration list for PBXNativeTarget "SegmentedPickerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A45B15962BCA9D3800A2EB0D /* Debug */,
-				A45B15972BCA9D3800A2EB0D /* Release */,
+				A45B15B12BCA9DEC00A2EB0D /* Debug */,
+				A45B15B22BCA9DEC00A2EB0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

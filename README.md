@@ -1,11 +1,11 @@
  # Segmented Picker for WatchOS
 
 <p align="center">
- <Img src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/SegmentedPickerDemo.gif">
+ <Img src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/Assets/SegmentedPickerDemo.gif">
 </p>
 
 ### Summary
-[Pickers](https://developer.apple.com/documentation/swiftui/picker) are controls for allowing user selection from a set of mutually exclusive options. 
+[Pickers](https://developer.apple.com/documentation/swiftui/Assets/picker) are controls for allowing user selection from a set of mutually exclusive options. 
 While SwiftUI pickers are available in watchOS, the segmented variant (shown below) is not.
  
 This repository includes a custom built segmented picker for usage in watchOS as well as an interactive demo.

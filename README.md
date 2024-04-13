@@ -10,7 +10,19 @@ While SwiftUI pickers are available in watchOS, the segmented variant (shown bel
  
 This repository includes a custom built segmented picker for usage in watchOS as well as an interactive demo.
 
-### How to Use It
+### Design
+Segmented pickers are challenging in watchOS primarily due to the highly constrained horizontal surface. Even with just a couple of options, text-based selections
+readily overflow and end up truncated. Since we lack hover context on a touch surface, it's not tenable to be obscuring this information.
+
+Because of this, I opted for a design that limits the picker to `.iconOnly` labes as selections. Icons, especially systemImages, readily convey their information
+with a grealtly reduced surface footprint. 
+
+The picker can comfortably 4 selections with 5 (<= 41mm) and 6 (>= 45mm) being possible depending on screen size.
+<p align="center">
+  <img width="300" src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/Assets/SegmentedPickerPreview.png">
+</p>
+
+### Usage
 The component must be provided a `@Binding` for managing the selection state and an array of `Selection` for rendering the content.
 ```
 @Binding var selectionValue: <Selection: Hashable>
@@ -80,15 +92,3 @@ SegmentedPicker(selectionValue: $selectionValue) {
     }
 }
 ```
-
-### Design
-Segmented pickers are challenging in watchOS primarily due to the highly constrained horizontal surface. Even with just a couple of options, text-based selections
-readily overflow and end up truncated. Since we lack hover context on a touch surface, it's not tenable to be obscuring this information.
-
-Because of this, I opted for a design that limits the picker to `.iconOnly` labes as selections. Icons, especially systemImages, readily convey their information
-with a grealtly reduced surface footprint. 
-
-The picker can comfortably 4 selections with 5 (<= 41mm) and 6 (>= 45mm) being possible depending on screen size.
-<p align="center">
-  <img width="300" src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/Assets/SegmentedPickerPreview.png">
-</p>

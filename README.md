@@ -2,6 +2,7 @@
 
 <p align="center">
 </p>
+![SegmentedPickerDemo](https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/assets/17240610/b14462d3-d3ee-4f4f-b999-77e88d6b358a)
 
 ### Summary
 [Pickers](https://developer.apple.com/documentation/swiftui/picker) are controls for allowing user selection from a set of mutually exclusive options. 

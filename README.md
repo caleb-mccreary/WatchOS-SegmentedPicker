@@ -90,5 +90,5 @@ with a grealtly reduced surface footprint.
 
 The picker can comfortably 4 selections with 5 (<= 41mm) and 6 (>= 45mm) being possible depending on screen size.
 <p align="center">
-  <img width="300" src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/SegmentedPickerPreview.png">
+  <img width="300" src="https://github.com/caleb-mccreary/WatchOS-SegmentedPicker/blob/main/Assets/SegmentedPickerPreview.png">
 </p>
